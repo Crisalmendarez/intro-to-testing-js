@@ -15,5 +15,11 @@ const helloWorld = function () {
 //}
 
 function sayHello(input){
-    return `Hello, ${input}`
+
+    if(input){
+        return `Hello, ${input}`
+    }
+    else{
+        return "Hello, World!";
+    }
 }
